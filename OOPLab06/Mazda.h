@@ -2,7 +2,7 @@
 #include "vehicle.h"
 #include "Drawable.h"
 
-/// @brief This is the mazda class.
+/// @brief This is the Mazda class.
 /// 
 /// This class inherits Vehicle & Drawable. 
 /// It Also has the ability to both drive and draw.
