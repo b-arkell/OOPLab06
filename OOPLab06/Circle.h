@@ -1,17 +1,14 @@
 #pragma once
-///@file 
-///@brief This is a Circle header file
-/// 
-/// this file contains the Circle class
 #include "Shape.h"
+#include "Drawable.h"
 #include <iostream>
 
 #define M_PI 3.14159265358979323846 // define pi for circle area calculation
 
-/// @brief This is a Cirlce class
+/// @brief This is a Circle class
 ///
-/// The class is is a Shape of type Circle, 
-/// and it had the ability to draw and calculate the area
+/// This class inherits Shape and Drawable, and it has the ability to both draw and calculate the area.
+/// it contains an int value as the radius.
 /// @author Group 13
 /// @date 19/03/2025
 class Circle :public Shape, public Drawable
@@ -20,34 +17,34 @@ class Circle :public Shape, public Drawable
 public:
 /// @brief This function is used construct the circle
 ///
-/// the function will construct a circle with default values
+/// the function will construct a circle with a default radius of 0.
 /// @param Void
 /// @return Circle
 /// @author Group 13
 /// @date 19/03/2025
 	Circle();
 	
-/// @brief This function is used construct the circle
+/// @brief This function is used construct the circle with parameters.
 ///
-/// the function will construct a circle with values from the parameters
+/// the function will construct a circle setting the radius value using the parameters.
 /// @param radius (int)
 /// @return Circle
 /// @author Group 13
 /// @date 19/03/2025
 	Circle(int radius);
 
-/// @brief This function is used to calculate the area of circle
+/// @brief This function is used to calculate the area of the circle.
 ///
-/// the function will calculate the area based on the member values it currently has
+/// the function will calculate the area based on the radius it currrently holds.
 /// @param Void
 /// @return area (double)
 /// @author Group 13
 /// @date 19/03/2025
 	double calcArea();
 
-/// @brief This function is used to draw a circle
+/// @brief This function is used to draw the circle.
 ///
-/// the function will print a circle to the screen with asteriks 
+/// the function will print a circle to the screen using asteriks.
 /// @param Void
 /// @return Void
 /// @author Group 13

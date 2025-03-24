@@ -1,26 +1,32 @@
 #pragma once
-///@file 
-///@brief This is a Mazda header file
-/// 
-/// this file contains the Mazda class
 #include "vehicle.h"
+#include "Drawable.h"
 
-/// @brief This is a mazda class
-///
-/// The class is is a type of vehicle and also inherits drawable
+/// @brief This is the mazda class.
+/// 
+/// This class inherits Vehicle & Drawable. 
+/// It Also has the ability to both drive and draw.
 /// @author Group 13
 /// @date 19/03/2025
 class Mazda :public Vehicle, public Drawable
 {
 public:
-/// @brief This function is used to drive the Mazda
+/// @brief This function is used to drive the Mazda.
 ///
-/// the function will activate and print out an image of the Mazda driving
+/// when this function is called it will print out an image of the Mazda driving.
 /// @param Void
 /// @return Void
 /// @author Group 13
 /// @date 19/03/2025
 	void drive();
+
+/// @brief This function is used to draw the Mazda.
+///
+/// when this function is called it will print out an image of the Mazda stationary.
+/// @param Void
+/// @return Void
+/// @author Group 13
+/// @date 19/03/2025
 	void draw();
 };
 

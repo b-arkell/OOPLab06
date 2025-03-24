@@ -1,0 +1,155 @@
+\doxysection{Circle Class Reference}
+\hypertarget{class_circle}{}\label{class_circle}\index{Circle@{Circle}}
+
+
+This is a \doxylink{class_circle}{Circle} class.  
+
+
+
+
+{\ttfamily \#include $<$Circle.\+h$>$}
+
+Inheritance diagram for Circle\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_circle}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_circle_ad1ecfcfc7bf34529c6a6d6c448bf70fe}{Circle}} ()
+\begin{DoxyCompactList}\small\item\em This function is used construct the circle. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_circle_a1b2864b954ac641bff2537d6d3652c7f}{Circle}} (int radius)
+\begin{DoxyCompactList}\small\item\em This function is used construct the circle with parameters. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_circle_a01eced82abe5c15f26b50ea1d9fa31e2}{calc\+Area}} ()
+\begin{DoxyCompactList}\small\item\em This function is used to calculate the area of the circle. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_circle_a3a3f7166e7f629e44f9044b0e537eb22}{draw}} ()
+\begin{DoxyCompactList}\small\item\em This function is used to draw the circle. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This is a \doxylink{class_circle}{Circle} class. 
+
+This class inherits \doxylink{class_shape}{Shape} and \doxylink{class_drawable}{Drawable}, and it has the ability to both draw and calculate the area. it contains an int value as the radius. \begin{DoxyAuthor}{Author}
+Group 13 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+19/03/2025 
+\end{DoxyDate}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_circle_ad1ecfcfc7bf34529c6a6d6c448bf70fe}\index{Circle@{Circle}!Circle@{Circle}}
+\index{Circle@{Circle}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{Circle()}{Circle()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_circle_ad1ecfcfc7bf34529c6a6d6c448bf70fe} 
+Circle\+::\+Circle (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+This function is used construct the circle. 
+
+the function will construct a circle with a default radius of 0. 
+\begin{DoxyParams}{Parameters}
+{\em Void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\doxylink{class_circle}{Circle} 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Group 13 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+19/03/2025 
+\end{DoxyDate}
+\Hypertarget{class_circle_a1b2864b954ac641bff2537d6d3652c7f}\index{Circle@{Circle}!Circle@{Circle}}
+\index{Circle@{Circle}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{Circle()}{Circle()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_circle_a1b2864b954ac641bff2537d6d3652c7f} 
+Circle\+::\+Circle (\begin{DoxyParamCaption}\item[{int}]{radius}{}\end{DoxyParamCaption})}
+
+
+
+This function is used construct the circle with parameters. 
+
+the function will construct a circle setting the radius value using the parameters. 
+\begin{DoxyParams}{Parameters}
+{\em radius} & (int) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\doxylink{class_circle}{Circle} 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Group 13 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+19/03/2025 
+\end{DoxyDate}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_circle_a01eced82abe5c15f26b50ea1d9fa31e2}\index{Circle@{Circle}!calcArea@{calcArea}}
+\index{calcArea@{calcArea}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{calcArea()}{calcArea()}}
+{\footnotesize\ttfamily \label{class_circle_a01eced82abe5c15f26b50ea1d9fa31e2} 
+double Circle\+::calc\+Area (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+This function is used to calculate the area of the circle. 
+
+the function will calculate the area based on the radius it currrently holds. 
+\begin{DoxyParams}{Parameters}
+{\em Void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+area (double) 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Group 13 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+19/03/2025 
+\end{DoxyDate}
+
+
+Implements \mbox{\hyperlink{class_shape_ac04856560c9e616f6f8dc69532bc7cd0}{Shape}}.
+
+\Hypertarget{class_circle_a3a3f7166e7f629e44f9044b0e537eb22}\index{Circle@{Circle}!draw@{draw}}
+\index{draw@{draw}!Circle@{Circle}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily \label{class_circle_a3a3f7166e7f629e44f9044b0e537eb22} 
+void Circle\+::draw (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+This function is used to draw the circle. 
+
+the function will print a circle to the screen using asteriks. 
+\begin{DoxyParams}{Parameters}
+{\em Void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Void 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Group 13 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+19/03/2025 
+\end{DoxyDate}
+
+
+Implements \mbox{\hyperlink{class_drawable_aa37d7b328240d343134adcfe5e4dcd38}{Drawable}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/broar/source/repos/\+OOPLab06/\+OOPLab06/\mbox{\hyperlink{_circle_8h}{Circle.\+h}}\item 
+C\+:/\+Users/broar/source/repos/\+OOPLab06/\+OOPLab06/Circle.\+cpp\end{DoxyCompactItemize}

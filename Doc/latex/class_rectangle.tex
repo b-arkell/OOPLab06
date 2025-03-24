@@ -1,0 +1,159 @@
+\doxysection{Rectangle Class Reference}
+\hypertarget{class_rectangle}{}\label{class_rectangle}\index{Rectangle@{Rectangle}}
+
+
+This is a \doxylink{class_rectangle}{Rectangle} header file.  
+
+
+
+
+{\ttfamily \#include $<$Rectangle.\+h$>$}
+
+Inheritance diagram for Rectangle\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_rectangle}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_rectangle_a8a933e0ebd9e80ce91e61ffe87fd577e}{Rectangle}} ()
+\begin{DoxyCompactList}\small\item\em This function will construct a \doxylink{class_rectangle}{Rectangle}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_rectangle_ac2bb13ef1af8fe288bf46c92e95fb875}{Rectangle}} (int length, int width)
+\begin{DoxyCompactList}\small\item\em This function is used construct the \doxylink{class_rectangle}{Rectangle}. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_rectangle_a906510bf458935a5104736ba885604ca}{calc\+Area}} ()
+\begin{DoxyCompactList}\small\item\em This function is used calculate the area of \doxylink{class_rectangle}{Rectangle}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_rectangle_ac895c67f1d6337e3b4f72663b17dd299}{draw}} ()
+\begin{DoxyCompactList}\small\item\em This function is a virtual function for draw. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This is a \doxylink{class_rectangle}{Rectangle} header file. 
+
+this file contains the \doxylink{class_rectangle}{Rectangle} class.
+
+This is a \doxylink{class_circle}{Circle} class
+
+This class inherits \doxylink{class_shape}{Shape} and \doxylink{class_drawable}{Drawable}, and it has the ability to both draw and calculate the area. It contains two int values, for length and width. \begin{DoxyAuthor}{Author}
+Group 13 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+19/03/2025 
+\end{DoxyDate}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_rectangle_a8a933e0ebd9e80ce91e61ffe87fd577e}\index{Rectangle@{Rectangle}!Rectangle@{Rectangle}}
+\index{Rectangle@{Rectangle}!Rectangle@{Rectangle}}
+\doxysubsubsection{\texorpdfstring{Rectangle()}{Rectangle()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_rectangle_a8a933e0ebd9e80ce91e61ffe87fd577e} 
+Rectangle\+::\+Rectangle (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+This function will construct a \doxylink{class_rectangle}{Rectangle}. 
+
+This function is used construct a \doxylink{class_rectangle}{Rectangle} with a default length and width of 0. 
+\begin{DoxyParams}{Parameters}
+{\em Void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+rectangle 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Group 13 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+19/03/2025 
+\end{DoxyDate}
+\Hypertarget{class_rectangle_ac2bb13ef1af8fe288bf46c92e95fb875}\index{Rectangle@{Rectangle}!Rectangle@{Rectangle}}
+\index{Rectangle@{Rectangle}!Rectangle@{Rectangle}}
+\doxysubsubsection{\texorpdfstring{Rectangle()}{Rectangle()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_rectangle_ac2bb13ef1af8fe288bf46c92e95fb875} 
+Rectangle\+::\+Rectangle (\begin{DoxyParamCaption}\item[{int}]{length}{, }\item[{int}]{width}{}\end{DoxyParamCaption})}
+
+
+
+This function is used construct the \doxylink{class_rectangle}{Rectangle}. 
+
+the function will construct a \doxylink{class_rectangle}{Rectangle} with values from the parameters 
+\begin{DoxyParams}{Parameters}
+{\em length} & (int), width (int) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\doxylink{class_rectangle}{Rectangle} 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Group 13 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+19/03/2025 
+\end{DoxyDate}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_rectangle_a906510bf458935a5104736ba885604ca}\index{Rectangle@{Rectangle}!calcArea@{calcArea}}
+\index{calcArea@{calcArea}!Rectangle@{Rectangle}}
+\doxysubsubsection{\texorpdfstring{calcArea()}{calcArea()}}
+{\footnotesize\ttfamily \label{class_rectangle_a906510bf458935a5104736ba885604ca} 
+double Rectangle\+::calc\+Area (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+This function is used calculate the area of \doxylink{class_rectangle}{Rectangle}. 
+
+the function will calculate the area based on the member values it currently has 
+\begin{DoxyParams}{Parameters}
+{\em Void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+area (double) 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Group 13 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+19/03/2025 
+\end{DoxyDate}
+
+
+Implements \mbox{\hyperlink{class_shape_ac04856560c9e616f6f8dc69532bc7cd0}{Shape}}.
+
+\Hypertarget{class_rectangle_ac895c67f1d6337e3b4f72663b17dd299}\index{Rectangle@{Rectangle}!draw@{draw}}
+\index{draw@{draw}!Rectangle@{Rectangle}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily \label{class_rectangle_ac895c67f1d6337e3b4f72663b17dd299} 
+void Rectangle\+::draw (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+This function is a virtual function for draw. 
+
+the function will act as a template for any drawable classes to implement their drawability. 
+\begin{DoxyParams}{Parameters}
+{\em Void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Group 13 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+19/03/2025 
+\end{DoxyDate}
+
+
+Implements \mbox{\hyperlink{class_drawable_aa37d7b328240d343134adcfe5e4dcd38}{Drawable}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/broar/source/repos/\+OOPLab06/\+OOPLab06/\mbox{\hyperlink{_rectangle_8h}{Rectangle.\+h}}\item 
+C\+:/\+Users/broar/source/repos/\+OOPLab06/\+OOPLab06/Rectangle.\+cpp\end{DoxyCompactItemize}
